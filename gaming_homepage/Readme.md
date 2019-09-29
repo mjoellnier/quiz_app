@@ -1,4 +1,4 @@
-# Quick Quiz App
+# Gaming Information Homepage
 
 I created this project to review how to work with remote APIs and how to manipulate the content of the DOM. It is build upon knowledge I reviewed during the Quiz App project to further deepen my knowledge. It is done rather quick and dirty as my time frame this sunday was quite small, but I hope to find some time to refactor and clean the code.
 
