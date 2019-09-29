@@ -1,0 +1,115 @@
+:root {
+  background-color: #3b3c3c;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+body {
+  height: 100vh;
+  background-size: cover !important;
+}
+
+#gamename_input {
+  width: 100vw;
+  position: sticky;
+  height: 5vh;
+  text-align: center;
+  font-size: 2.8rem;
+  color: #772929;
+  background-color: #262626;
+  border: none;
+}
+
+.btn {
+  font-size: 1.8rem;
+  padding: 0.5rem 0;
+  width: 100vw;
+  text-align: center;
+  border: 0.1rem solid #eb5656;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #eb5656;
+  background-color: rgb(48, 48, 48);
+}
+
+#grayBackground {
+  height: 100vh;
+  width: 100vw;
+  background: #00000080;
+}
+
+#gameTitle {
+  text-align: center;
+  font-size: 6rem;
+  color: #cacaca;
+}
+
+#gameDetails {
+  padding: 3%;
+  overflow: scroll;
+  height: 85vh;
+}
+
+#gameDescription {
+  color: #cacaca !important;
+  font-size: 1.7rem;
+}
+
+#gameDescription * {
+  color: #cacaca !important;
+  font-size: 1.7rem;
+}
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hud-main-text {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.hud-item {
+  border-radius: 5%;
+  padding: 1% 2%;
+}
+.hud-item * {
+  color: #cacaca;
+}
+#scores {
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-evenly;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 2rem;
+  text-align: center;
+  width: 100vw;
+  padding: 1% 0;
+  color: #cacaca;
+}
+
+a {
+  color: darkred;
+}
+
+.hidden {
+  display: none !important;
+}

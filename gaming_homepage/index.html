@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Games</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="grayBackground">
+      <form>
+        <input
+          type="text"
+          name="gamename"
+          id="gamename_input"
+          placeholder="Game name"
+        />
+        <button
+          type="submit"
+          class="btn"
+          id="gameNameSearchBtn"
+          disabled="true"
+          onclick="searchGame(event)"
+          hidden="true"
+        >
+          Search!
+        </button>
+        <div id="noGameWarning"></div>
+        <div id="gameDetails">
+          <h1 id="gameTitle"></h1>
+          <div id="gameDescription"></div>
+          <div id="scores" class="hidden">
+            <div class="hud-item" id="userRating">
+              <p class="hud-prefix">
+                User Rating
+              </p>
+              <h1 class="hud-main-text" id="userRatingScore">
+                0
+              </h1>
+            </div>
+            <div class="hud-item" id="metaCritic">
+              <p class="hud-prefix">
+                Meta Critic
+              </p>
+              <h1 class="hud-main-text" id="metaCriticScore">
+                0
+              </h1>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <footer>
+      All data are provided by
+      <a href="https://rawg.io/" target="_blank" rel="noopener norefferer"
+        >RAWG</a
+      >
+      - Thank you for that!
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
